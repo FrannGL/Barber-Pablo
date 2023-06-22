@@ -32,21 +32,28 @@
       <div class="container-fluid g-0 p-0">
         <div class="row g-0">
           <div class="col">
-            <nav class="navbar bg-black">
-              <div
-                class="bg-black d-flex justify-content-around align-items-center flex-lg-row flex-md-row flex-sm-column flex-column w-100"
-              >
-                <h6 class="text-center text-white m-0" style="font-weight: 600">
-                  <i class="bi bi-envelope"></i>
-                  info@mimail.com.ar
-                </h6>
-                <h5 class="text-center text-white m-0" style="font-weight: 600">
-                  ¿Querés garantizar tu futuro profesional?
-                </h5>
-                <h6 class="text-center text-white m-0" style="font-weight: 600">
-                  <i class="bi bi-whatsapp"></i>
-                  11-6937-5101
-                </h6>
+            <nav
+              class="navbar navbar-expand-lg navbar-dark bg-dark g-0 p-0 m-0"
+            >
+              <div class="container-fluid g-0 p-0 m-0">
+                <div
+                  class="bg-black d-flex justify-content-center align-items-center flex-lg-row flex-md-row flex-sm-column flex-column w-100"
+                  style="font-size: 1.5rem"
+                >
+                  <p class="text-center text-white m-2 p-0 me-3">
+                    Apresurate! La
+                    <span class="text-danger">oferta</span> termina en:
+                  </p>
+                  <h5
+                    class="text-center text-white mb-0 p-0"
+                    id="timer"
+                    style="font-size: 1.5rem"
+                  ></h5>
+                </div>
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                ></div>
               </div>
             </nav>
           </div>
@@ -54,30 +61,43 @@
       </div>
     </header>
     <main>
-      <!------------------- SECCION 1 -------------------->
+      <!-------------- BOTON FLOTANTE WHATSAPP ---------------->
+
       <div class="fixed-bottom mb-2 me-4 d-flex justify-content-end">
         <a href="https://wa.me/541169375101" target="_blank"
           ><img src="public/images/logo-wp.png" alt="" width="80px"
         /></a>
       </div>
+
+      <!------------------- SECCION 1 -------------------->
       <section
         class="container-fluid p-0 d-flex flex-column justify-content-center align-items-center"
+        style="overflow: hidden"
       >
         <div class="row w-100">
           <div class="col g-0">
-            <div class="bg-dark h-100 mb-5">
-              <h2 class="text-white text-center p-5">
-                <span class="text-danger" style="font-weight: 600"
-                  >Descubre como proporcionar los nutrientes</span
+            <div
+              class="bg-dark h-100 mb-5 d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="w-50 text-center">
+                <h2
+                  class="text-white text-center pt-5 mt-3"
+                  style="font-size: 2.5rem"
                 >
-                de forma segura y deliciosa. ¡Dale a tu gato el
-                <span class="text-danger" style="font-weight: 600"
-                  >cuidado que se merece</span
-                >!
-              </h2>
+                  <span class="text-danger" style="font-weight: 600"
+                    >¿Alguna vez has soñado con convertirte en un maestro de la
+                    barbería y tener tu propio negocio próspero?</span
+                  >
+                  ¡Ahora tienes la oportunidad perfecta de hacerlo realidad con
+                  nuestro curso
+                  <span class="text-danger" style="font-weight: 600"
+                    >Aprende barberia y monta tu PROPIO negocio!</span
+                  >
+                </h2>
+              </div>
               <h5 class="text-white text-center pt-2 pb-4 p-5">
-                100 recetas saludables y faciles de preparar que mejorarán la
-                salud y en bienestar de tu michi!
+                ¡Todas las herramientas escenciales para convertirte en todo un
+                barbero profesional!
               </h5>
               <div class="container">
                 <div class="row">
@@ -88,11 +108,12 @@
                       <iframe
                         width="1080"
                         height="600"
-                        src="https://www.youtube.com/embed/jmgT0vpMHGU"
+                        src="./public/images/Aprende Barbería Y Monta Tu Negocio.mp4"
                         title="YouTube video player"
                         frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                         allowfullscreen
+                        autoplay="false"
                       ></iframe>
                     </div>
                   </div>
@@ -105,61 +126,69 @@
       <!------------------- SECCION 2 -------------------->
       <section class="container-fluid">
         <div class="row">
-          <div
-            class="col-6 d-flex flex-column justify-content-end align-items-center g-0"
-          >
+          <div class="col-lg-6 g-0">
             <div
-              class="w-100 h-100 d-flex justify-content-end align-items-center p-5 text-white"
+              class="h-100 d-flex justify-content-end align-items-center p-5 text-white"
               style="background-color: #4d545c"
             >
-              <div class="w-50">
-                <h4
-                  class="text-center"
-                  style="font-weight: 200; font-size: 2.5rem"
-                >
-                  <span class="text-center text-danger" style="font-weight: 600"
-                    >¡Presta atencion!</span
+              <div class="d-flex justify-content-center justify-content-lg-end">
+                <div class="w-50">
+                  <h4
+                    class="text-center"
+                    style="font-weight: 200; font-size: 2.5rem"
                   >
-                  Este
-                  <span
-                    class="text-center text-danger"
-                    style="font-weight: 600; font-size: 2.5rem"
-                    >CURSO</span
-                  >
-                  es para ti si:
-                </h4>
-                <h5 class="py-1 pt-3 text-center">
-                  👉 ¿Te preocupa no alimentar a tu gato de forma adecuada?
-                </h5>
-                <h5 class="py-2 text-center">
-                  👉 ¿Te gustaría ayudarle a mejorar su sistema digestivo a tu
-                  Gato a través de una buena alimentación?
-                </h5>
-                <h5 class="py-2 text-center">
-                  👉 ¿Te sientes abrumada(o) por el costo de la comida procesada
-                  para gatos y quieres una opción más económica y saludable?
-                </h5>
-                <h5 class="py-2 text-center">
-                  👉 ¿Te gustaría disponer de variedades de recetas y menús
-                  saludables para cocinarle a tu gato?
-                </h5>
+                    <span
+                      class="text-center text-danger"
+                      style="font-weight: 600"
+                      >¡Presta atención!</span
+                    >
+                    Este
+                    <span
+                      class="text-center text-danger"
+                      style="font-weight: 600; font-size: 2.5rem"
+                      >CURSO</span
+                    >
+                    es para ti si:
+                  </h4>
+                  <h5 class="py-1 pt-3 text-center">
+                    👉 Si quieres convertirte en un barbero profesional y tener
+                    un negocio exitoso.
+                  </h5>
+                  <h5 class="py-2 text-center">
+                    👉 Si deseas adquirir habilidades empresariales y emprender
+                    en la industria de la barbería.
+                  </h5>
+                  <h5 class="py-2 text-center">
+                    👉 Si tienes pasión por la barbería pero careces de
+                    experiencia previa.
+                  </h5>
+                  <h5 class="py-2 text-center">
+                    👉 Si buscas flexibilidad y conveniencia en tu aprendizaje.
+                  </h5>
+                </div>
               </div>
             </div>
           </div>
-          <div class="col-6 g-0">
-            <div class="h-100 p-4" style="background-color: #4d545c">
+          <div class="col-lg-6 g-0">
+            <div
+              class="h-100 p-4 d-flex justify-content-center justify-content-lg-start align-items-center"
+              style="background-color: #4d545c"
+            >
               <img
                 src="public/images/Barber Shop 1966.webp"
                 alt=""
                 width="450px"
+                class="img-fluid"
               />
             </div>
           </div>
         </div>
       </section>
+
       <!------------------- SECCION 3 -------------------->
       <section
         class="container-fluid p-0 d-flex flex-column justify-content-center align-items-center"
+        style="overflow: hidden"
       >
         <div class="row w-100">
           <div class="col g-0">
@@ -176,73 +205,81 @@
                 ¿Cómo lo vas a lograr?
               </h2>
               <h2
-                class="text-white text-center pt-2 pb-4 mx-5"
-                style="padding: 0 400px; font-size: 1.5rem"
+                class="text-white text-center pt-2 pb-4 mx-5 w-50"
+                style="font-size: 1.5rem"
               >
-                Hemos creado una guia alimenticia con 100 recetas sabrosas y
-                saludables que ayudarán a tu gato a:
+                Tomar un curso de aprendizaje de barbería y montar tu propio
+                negocio en este campo puede brindarte numerosos beneficios:
               </h2>
+              <!-- <h6 class="text-white text-center pt-2">
+              Certificado avalado por Hotmart y Seminarios Online.
+            </h6> -->
               <h6 class="text-white text-center pt-2">
-                Mejorarás la digestión de tu gato desde la primera semana.
+                👉 Aprende cómo montar tu propio local o trabajar a domicilio.
               </h6>
               <h6 class="text-white text-center pt-2">
-                Fortalecerás el sistema inmunológico.
+                👉 Dominio de herramientas, materiales y equipos esenciales.
               </h6>
               <h6 class="text-white text-center pt-2">
-                Ayudarás a prevenir enfermedada comunes como la obesidad.
+                👉 Recomendaciones de implementos y marcas líderes en el
+                mercado.
               </h6>
               <h6 class="text-white text-center pt-2">
-                Aumentarás la energía y el juego de tu gato.
+                👉 Domina la técnica correcta de uso de la barbera/navaja.
               </h6>
               <h6 class="text-white text-center pt-2">
-                Mejorarás el pelaje y la piel.
+                👉 Crecimiento profesional continuo
               </h6>
               <h6 class="text-white text-center pt-2">
-                Reducirás los problemas de alergía.
+                👉 Conviértete en un experto en visagismo para resaltar la
+                belleza individual.
               </h6>
               <h6 class="text-white text-center pt-2">
-                Ayudarás a controlar enfermedades crónicas.
+                👉 Conviértete en un experto en visagismo para resaltar la
+                belleza individual.
               </h6>
               <h6 class="text-white text-center pt-2">
-                Fortalecerás la relación con tu mascota.
-              </h6>
-              <h6 class="text-white text-center pt-2">
-                Sabrás personalizar la comida según las necesidades de tu gato.
+                👉 Estilo y corte de barbas que impresionarán a tus clientes.
               </h6>
               <h6 class="text-white text-center pt-2 pb-5">
-                Ahorrarás dinero al preparar comida para tu gato en casa, porque
-                resulta más económico que comprar comida comercial de alta
-                calidad y más saludable.
+                👉 Conoce las mejores técnicas de publicidad para promover tu
+                negocio.
               </h6>
               <div class="container">
                 <div class="row">
                   <div class="col g-0 d-flex justify-content-center">
-                    <img src="public/images/collage-cortes.jpg" alt="" />
+                    <img
+                      src="public/images/collage-cortes.jpg"
+                      alt=""
+                      class="img-fluid"
+                    />
                   </div>
                 </div>
               </div>
               <div class="d-flex justify-content-center w-50">
                 <h2
                   class="text-danger text-center my-5"
-                  style="font-size: 5.5rem; font-weight: 600"
+                  style="font-size: 4rem; font-weight: 600"
                 >
                   Disponibilidad con 50% de descuento por hoy
                 </h2>
               </div>
-              <div class="d-flex flex-column justify-content-center">
-                <h4 class="text-white" style="font-size: 2rem">
+              <div class="d-flex flex-column justify-content-center w-50">
+                <h4 class="text-white text-center" style="font-size: 2rem">
                   ¿Cuánto estás dispuesto a
                   <span class="text-danger" style="font-weight: 600"
                     >invertir</span
                   >
-                  en la salud de tu amigo felino?
+                  en vos? ¿En aprender los conocimientos de la barberia y poder
+                  montar tu propio negocio?
                 </h4>
                 <h4
                   class="text-white text-center mb-4"
                   style="font-size: 1.4rem"
                 >
-                  Con esta guía será fácil planificar la alimentacion de tu gato
-                  para 30 días
+                  Con este curso, te va a facilitar las herramientas necesarias
+                  para aprender todo sobre barberia y en como montar tu propio
+                  negocio
                 </h4>
               </div>
             </div>
@@ -252,6 +289,7 @@
       <!------------------- SECCION 4 -------------------->
       <section
         class="container-fluid p-0 d-flex flex-column justify-content-center align-items-center"
+        style="overflow: hidden"
       >
         <div class="row w-100">
           <div class="col g-0">
@@ -268,22 +306,37 @@
                 <h6 style="font-size: 1.5rem">
                   👉 Acceso a nuestra comunidad excluvisa.
                 </h6>
-                <h6 style="font-size: 1.5rem">👉 Calendario de vacunas.</h6>
                 <h6 style="font-size: 1.5rem">
-                  👉 Calculadora de alimentación diaria.
+                  👉 Importantes tips sobre cortes.
                 </h6>
-                <h6 style="font-size: 1.5rem">👉 PDF - Guía para Gatos.</h6>
-                <h6 style="font-size: 1.5rem">
-                  👉 Aplicaciones de juegos interactivos.
-                </h6>
+                <h6 style="font-size: 1.5rem">👉 Calculadora de cortes.</h6>
               </div>
               <div class="container">
                 <div class="row">
                   <div class="col text-center mb-4">
                     <img
-                      src="public/images/e08490a15081e2f85316ca388ce7fb5872b745b9e6dc6918c8d21143992fd86f42333.png"
+                      src="public/images/CoverVideo.jpg"
                       alt=""
-                      width="500px"
+                      width="800px"
+                      class="img-fluid"
+                    />
+                  </div>
+                </div>
+              </div>
+              <h2 class="text-center fw-bold pb-5 pt-5" style="font-size: 3rem">
+                Obtené tu
+                <span class="text-danger" style="font-weight: 600"
+                  >CERTIFICADO</span
+                >!
+              </h2>
+              <div class="container">
+                <div class="row">
+                  <div class="col text-center mb-4">
+                    <img
+                      src="./public/images/CERTIFICADO.jpg"
+                      alt=""
+                      width="800px"
+                      class="img-fluid"
                     />
                   </div>
                 </div>
@@ -291,15 +344,24 @@
               <div class="d-flex flex-column justify-content-center w-50">
                 <h2 class="text-center">Ultimos 10 disponibles</h2>
                 <p
-                  class="text-center text-decoration-line-through fs-2"
+                  class="text-center text-decoration-line-through text-danger fs-1"
                   style="font-weight: 600"
                 >
-                  $ 9.448
+                  $ 49,99
                 </p>
-                <p class="text-center fs-1 text-danger fw-bold">$4.723</p>
+                <p
+                  class="text-center fw-bold"
+                  style="font-size: 4rem; color: chartreuse"
+                >
+                  $24,99
+                </p>
                 <p class="text-center fs-4">
                   Precio en tu moneda local<span class="ms-2"
-                    ><img src="public/images/descarga.png" alt="" width="30px"
+                    ><img
+                      src="public/images/descarga.png"
+                      alt=""
+                      width="30px"
+                      class="img-fluid"
                   /></span>
                 </p>
                 <div class="d-flex justify-content-center">
@@ -307,7 +369,10 @@
                     class="btn btn-dark text-center"
                     style="font-size: 1.5rem"
                   >
-                    <a href="#" class="text-decoration-none text-white"
+                    <a
+                      href="https://go.hotmart.com/H83300669G?ap=95e2"
+                      class="text-decoration-none text-white"
+                      target="_blank"
                       ><i class="bi bi-emoji-sunglasses me-2"></i>Quiero
                       aprovechar la oferta</a
                     >
@@ -320,17 +385,6 @@
                     width="250px"
                   />
                 </div>
-                <h5
-                  class="text-center text-danger"
-                  style="font-size: 3.5rem; font-weight: 600"
-                >
-                  Apresurate! La oferta termina en:
-                </h5>
-                <h5
-                  class="text-center mb-5 mt-2"
-                  style="font-size: 4rem"
-                  id="timer"
-                ></h5>
               </div>
             </div>
           </div>
@@ -339,6 +393,7 @@
       <!------------------- SECCION 5 -------------------->
       <section
         class="container-fluid p-0 d-flex flex-column justify-content-center align-items-center"
+        style="overflow: hidden"
       >
         <div class="row w-100">
           <div class="col g-0">
@@ -362,7 +417,7 @@
                       aria-expanded="true"
                       aria-controls="collapseOne"
                     >
-                      👉 CUIDADOS ESPECIALES
+                      👉 ¿QUÉ VAS A LOGRAR?
                     </button>
                   </h2>
                   <div
@@ -371,15 +426,15 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the first item's accordion body.</strong>
-                      It is shown by default, until the collapse plugin adds the
-                      appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Maneras de trabajar en la Barberia -Como brindar una buena
+                      atención a tus clientes -Tipo de implementos y marcas
+                      recomendadas -Técnicas correctas para usar la navaja
+                      -Visagismo -Tipos de cortes -Estilos de cortes de barba
+                      -Como perfilar cejas -Recuperación de corte -Como desarmar
+                      y limpiar tus herramientas -Qué hacer en caso de cortar al
+                      cliente -Productos a utilizar -Como hacer marketing sobre
+                      tu barberia
+                      <code></code>
                     </div>
                   </div>
                 </div>
@@ -393,7 +448,7 @@
                       aria-expanded="false"
                       aria-controls="collapseTwo"
                     >
-                      👉 DIETAS SALUDABLES
+                      👉 ¿EL PAGO ES SEGURO?
                     </button>
                   </h2>
                   <div
@@ -402,15 +457,13 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the second item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Sí, los pagos en Hotmart son seguros. La plataforma
+                      utiliza medidas de seguridad, trabaja con procesadores de
+                      pago confiables y ofrece protección al comprador. Es
+                      importante investigar la reputación del vendedor antes de
+                      realizar un pago y, si tienes dudas, puedes contactar al
+                      servicio de atención al cliente de Hotmart para obtener
+                      más información.
                     </div>
                   </div>
                 </div>
@@ -424,7 +477,7 @@
                       aria-expanded="false"
                       aria-controls="collapseThree"
                     >
-                      👉 RECETAS PARA GATOS BEBES
+                      👉 ¿TENGO EL TIEMPO LIMITADO PARA VER LAS CLASES?
                     </button>
                   </h2>
                   <div
@@ -433,15 +486,9 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      Tenes acceso de por vida a las clases, y las podes ver
+                      cuando vos quieras, en cualquier momento del dia, desde la
+                      comodidad que vos prefieras.
                     </div>
                   </div>
                 </div>
@@ -464,15 +511,15 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      This is the third item's accordion body. It is hidden by
+                      default, until the collapse plugin adds the appropriate
+                      classes that we use to style each element. These classes
+                      control the overall appearance, as well as the showing and
+                      hiding via CSS transitions. You can modify any of this
+                      with custom CSS or overriding our default variables. It's
+                      also worth noting that just about any HTML can go within
+                      the <code>.accordion-body</code>, though the transition
+                      does limit overflow.
                     </div>
                   </div>
                 </div>
@@ -495,15 +542,15 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      This is the third item's accordion body. It is hidden by
+                      default, until the collapse plugin adds the appropriate
+                      classes that we use to style each element. These classes
+                      control the overall appearance, as well as the showing and
+                      hiding via CSS transitions. You can modify any of this
+                      with custom CSS or overriding our default variables. It's
+                      also worth noting that just about any HTML can go within
+                      the <code>.accordion-body</code>, though the transition
+                      does limit overflow.
                     </div>
                   </div>
                 </div>
@@ -526,15 +573,15 @@
                     data-bs-parent="#accordionExample"
                   >
                     <div class="accordion-body">
-                      <strong>This is the third item's accordion body.</strong>
-                      It is hidden by default, until the collapse plugin adds
-                      the appropriate classes that we use to style each element.
-                      These classes control the overall appearance, as well as
-                      the showing and hiding via CSS transitions. You can modify
-                      any of this with custom CSS or overriding our default
-                      variables. It's also worth noting that just about any HTML
-                      can go within the <code>.accordion-body</code>, though the
-                      transition does limit overflow.
+                      This is the third item's accordion body. It is hidden by
+                      default, until the collapse plugin adds the appropriate
+                      classes that we use to style each element. These classes
+                      control the overall appearance, as well as the showing and
+                      hiding via CSS transitions. You can modify any of this
+                      with custom CSS or overriding our default variables. It's
+                      also worth noting that just about any HTML can go within
+                      the <code>.accordion-body</code>, though the transition
+                      does limit overflow.
                     </div>
                   </div>
                 </div>
@@ -546,6 +593,7 @@
       <!------------------- SECCION 6 -------------------->
       <section
         class="container-fluid p-0 d-flex flex-column justify-content-center align-items-center"
+        style="overflow: hidden"
       >
         <div class="row w-100">
           <div class="col g-0">
@@ -554,8 +602,8 @@
               style="background-color: #4d545c"
             >
               <h2
-                class="text-center fw-bold pb-5 pt-5"
-                style="font-size: 2.5rem; padding: 0 400px"
+                class="text-center fw-bold pb-5 pt-5 w-50"
+                style="font-size: 2.5rem"
               >
                 Estas recetas
                 <span class="text-danger" style="font-weight: 600"
@@ -566,42 +614,51 @@
                   >salud felina</span
                 >:
               </h2>
-              <h6 style="font-size: 1.2rem">
-                Fortalecerá los huesos y músculos de tu gato.
-              </h6>
-              <h6 style="font-size: 1.2rem">
-                Minimizará el desprendimiento y promueve un pelaje suave y
-                brillante.
-              </h6>
-              <h6 style="font-size: 1.2rem">
-                Acabará con el mal aliento y los olores desagradables.
-              </h6>
-              <h6 style="font-size: 1.2rem">
-                ¡Incluso protege a tu gato del cáncer y la insuficiencia
-                orgánica!
-              </h6>
-              <h6 class="pb-5" style="font-size: 1.2rem">
-                Este método funciona para gatos de todas las edades, tamaños y
-                razas.
-              </h6>
+              <div class="text-center w-50">
+                <h6 style="font-size: 1.2rem" class="py-1">
+                  👉 Tus habilidades de barbería: Dominarás las técnicas más
+                  avanzadas para realizar cortes de cabello y barba de calidad
+                  profesional.
+                </h6>
+                <h6 style="font-size: 1.2rem" class="py-1">
+                  👉 Tus conocimientos empresariales: Aprenderás estrategias
+                  efectivas para emprender y gestionar tu propio negocio en la
+                  industria de la barbería.
+                </h6>
+                <h6 style="font-size: 1.2rem" class="py-1">
+                  👉 Tu capacidad de atención al cliente: Descubrirás cómo
+                  brindar una experiencia excepcional, fidelizando a tus
+                  clientes y generando referencias positivas.
+                </h6>
+                <h6 style="font-size: 1.2rem" class="py-1">
+                  👉 Tu posicionamiento en el mercado: Destacarás con cortes y
+                  estilos excepcionales, creando una marca personal sólida y
+                  diferenciándote de la competencia.
+                </h6>
+                <h6 class="pb-5 py-3" style="font-size: 1.2rem">
+                  👉 Tus ganancias y rentabilidad: Maximizarás tus ingresos
+                  mediante estrategias de fijación de precios, venta de
+                  productos complementarios y técnicas de marketing efectivas.
+                </h6>
+              </div>
               <div class="text-center mb-5">
                 <img
                   src="public/images/0c68e8cc739dd1a35dd1c6556c933473.jpg"
                   alt=""
-                  width="400px"
-                  class="ms-4"
+                  width="300px"
+                  class="m-2"
                 />
                 <img
                   src="public/images/56c17078afe0d3b945d2640cc81f91f9.jpg"
                   alt=""
-                  width="400px"
-                  class="ms-4"
+                  width="300px"
+                  class="m-2"
                 />
                 <img
                   src="public/images/480edf83bf0659b9f528b0f23e3921d4.jpg"
                   alt=""
-                  width="400px"
-                  class="ms-4"
+                  width="300px"
+                  class="m-2"
                 />
               </div>
               <h4 class="text-center fs-2 mt-4 mb-4 fw-bold">
@@ -611,6 +668,8 @@
                 src="public/images/como-hacer-compras-online-con-una-tarjeta-bancaria.png"
                 alt=""
                 class="mb-4"
+                width="500px"
+                class="img-fluid"
               />
               <div class="d-flex justify-content-center mb-4">
                 <button
@@ -628,15 +687,13 @@
         </div>
       </section>
       <!------------------- SECCION 7 -------------------->
-      <section class="container-fluid">
+      <section class="container-fluid" style="overflow: hidden">
         <div class="row">
-          <div
-            class="col-6 d-flex flex-column justify-content-end align-items-center g-0"
-          >
+          <div class="col-lg-6 g-0">
             <div
-              class="bg-dark w-100 h-100 d-flex justify-content-end align-items-center p-5"
+              class="bg-dark h-100 d-flex justify-content-center justify-content-lg-end align-items-center p-3"
             >
-              <div class="w-50">
+              <div class="w-50 d-flex flex-column justify-content-end">
                 <h2
                   class="text-center text-white"
                   style="
@@ -647,32 +704,37 @@
                 >
                   ¿Quién es el creador de los cursos?
                 </h2>
-                <p class="text-white text-center mt-5">
-                  Somos una escuela especializada en la formación de
-                  profesionales de la belleza y la estética. Nuestra propuesta,
-                  única en América Latina, incluye cursos iniciales y
-                  actualizaciones profesionales en Peluquería, Barberia,
-                  Maquillaje, Masajes, Manicuria, Estética Corporal,
-                  Cosmetología, Técnicas orientales, Podoestética y Depilación.
-                  Contamos con una larga trayectoria a nivel nacional de más de
-                  20 años.
+                <p class="text-white text-center m-5">
+                  Desarrollado por ELIUD ARAQUE, un carismático hombre de 24
+                  años, residente en la ciudad de Medellín Colombia; dedicado
+                  desde sus 15 años a la Barberia. Aprendió inicialmente de
+                  forma empírica, luego perfeccionando sus técnicas y
+                  convirtiéndose en un experto. Hace más de 5 años tiene su
+                  propia Barberia, no solo trabajando él y brindando un buen
+                  servicio, pero también generando empleo a varias personas. Un
+                  hombre caracterizado por su carisma, por sus ganas de ayudar a
+                  los demás, emprendedor y visionario.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-6 g-0">
-            <div class="bg-dark h-100 p-4">
+          <div class="col-lg-6 g-0">
+            <div
+              class="bg-dark h-100 p-4 d-flex align-items-center justify-content-center justify-content-lg-start"
+            >
               <img
                 src="public/images/banner-ppal_bacan-mobile.gif"
                 alt=""
                 width="500px"
+                class="img-fluid"
               />
             </div>
           </div>
         </div>
       </section>
+
       <!------------------- SECCION 8 -------------------->
-      <section class="container-fluid">
+      <section class="container-fluid" style="overflow: hidden">
         <div class="row">
           <div
             class="col w-100 d-flex justify-content-center align-items-center pt-5 text-white"
@@ -685,22 +747,27 @@
         </div>
         <div class="row">
           <div
-            class="col-6 d-flex flex-column justify-content-end align-items-center g-0"
+            class="col-lg-6 d-flex flex-column justify-content-end align-items-center g-0"
           >
             <div
-              class="w-100 h-100 d-flex justify-content-end align-items-center p-5"
+              class="w-100 h-100 d-flex justify-content-center justify-content-lg-end align-items-center p-5"
               style="background-color: #4d545c"
             >
-              <div class="w-50">
-                <img src="public/images/10002431.png" alt="" width="350px" />
+              <div class="w-50 p-0 g-0">
+                <img
+                  src="public/images/10002431.png"
+                  alt=""
+                  width="350px"
+                  class="img-fluid"
+                />
               </div>
             </div>
           </div>
           <div
-            class="col-6 g-0 d-flex flex-column justify-content-center align-items-start text-white"
+            class="col-lg-6 g-0 d-flex flex-column justify-content-center align-items-center align-items-lg-start text-white"
             style="background-color: #4d545c"
           >
-            <p class="text-center w-50" style="font-size: 1rem">
+            <p class="text-center w-50 mt-2" style="font-size: 1rem">
               Este es un CURSO COMPLETO. Al completar las compras tendrás una
               garantía de devolución de tu dinero hasta 7 días. <br />
               <br />
@@ -709,12 +776,20 @@
               pregunta alguna.
             </p>
             <div class="w-50">
-              <p class="text-center text-decoration-line-through fs-2">
-                $ 9.448
+              <p
+                class="text-center text-decoration-line-through text-danger fs-1"
+                style="font-weight: 600"
+              >
+                $ 49,99
               </p>
-              <p class="text-center fs-1 text-danger fw-bold">$4.723</p>
+              <p
+                class="text-center fw-bold"
+                style="font-size: 4rem; color: chartreuse"
+              >
+                $24,99
+              </p>
               <p class="text-center fs-6">
-                Oferta en Argentina<span class="ms-2"
+                Oferta en todo el mundo<span class="ms-2"
                   ><img src="public/images/descarga.png" alt="" width="30px"
                 /></span>
               </p>
@@ -723,7 +798,10 @@
                   class="btn btn-dark text-center"
                   style="font-size: 1.5rem"
                 >
-                  <a href="#" class="text-decoration-none text-white"
+                  <a
+                    href="https://go.hotmart.com/H83300669G?ap=95e2"
+                    class="text-decoration-none text-white"
+                    target="_blank"
                     ><i class="bi bi-emoji-sunglasses me-2"></i>Click aquí para
                     descargar las ofertas</a
                   >
@@ -734,7 +812,7 @@
         </div>
       </section>
       <!------------------- SECCION 9 -------------------->
-      <section class="container-fluid">
+      <section class="container-fluid" style="overflow: hidden">
         <div class="row">
           <div
             class="col d-flex flex-column justify-content-center align-items-center g-0"
@@ -750,7 +828,7 @@
                 canal de ventas
               </h4>
               <a href="https://wa.me/541169375101" target="_blank"
-                ><img src="public/images/ws2.png" alt="" width="500px"
+                ><img src="public/images/ws2.png" alt="" width="400px"
               /></a>
             </div>
           </div>
@@ -810,7 +888,7 @@
       >
         © 2023 Copyright:
         <a class="text-white" href="https://mdbootstrap.com/"
-          >Mipagina.com.ar</a
+          >El Arte de la Barberia</a
         >
       </div>
     </footer>
